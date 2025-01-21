@@ -1,0 +1,15 @@
+# Этот файл настроек предназначен для конфигурации анализатора безопасности.
+network:
+  timeout: 5
+  retries: 3
+
+vulnerability_check:
+  enabled: true
+  severity_levels:
+    - low
+    - medium
+    - high
+
+leak_detection:
+  enabled: true
+  alert_threshold: 10
